@@ -1,0 +1,35 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsList{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.dialog a {
+    color: black; 
+  display: flex;
+  align-items: center;
+}
+
+.dialog {
+  padding: 10px;
+
+}
+
+.dialog img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.message {
+    padding: 10px;
+
+}

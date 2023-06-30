@@ -1,0 +1,45 @@
+.block {
+    margin-top: 100px;
+    width: 90%;
+    height: auto;
+}
+
+.title {
+    font-weight: 500;
+    color: #c6ffdc;
+    text-align: center;
+}
+
+.photo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.friendsBlock {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+}
+
+.friendsBlock p {
+    color: white;
+    font-size: 10px;
+    margin: 5px;
+}
+
+.friend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+.friend:hover {
+    filter: drop-shadow(2px 5px 5px rgb(220, 255, 242));
+    transform: scale(1.3);
+}

@@ -1,0 +1,14 @@
+.header{
+  grid-area: header;
+background: #1D976C;
+background: -webkit-linear-gradient(to left, #93F9B9, #1D976C);
+background: linear-gradient(to left, #93F9B9, #1D976C); 
+border-radius: 3px;
+}
+
+
+
+.logo{
+  padding-left: 2%;
+  height: 50px;
+}
